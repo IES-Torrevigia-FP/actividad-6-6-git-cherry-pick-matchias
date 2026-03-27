@@ -1,0 +1,18 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-matchias$ git log --oneline develop
+8c8a632 (develop) HOTFIX: corrige error crítico en login
+6f109e5 Añade funcionalidad B en develop
+d7fbc16 Añade funcionalidad A en develop
+a4aadc5 (HEAD -> main) Crea versión 1.0 de la app
+79edeaf (origin/main, origin/HEAD) add deadline
+8c0fb31 Initial commit
+Auto-fusionando app.txt
+CONFLICTO (contenido): Conflicto de fusión en app.txt
+error: no se pudo aplicar 8c8a632... HOTFIX: corrige error crítico en login
+ayuda: Luego de resolver los conflictos, márquelos con
+ayuda: "git add/rm <pathspec>", luego ejecute
+ayuda: "git cherry-pick --continue".
+ayuda: O puede saltar este commit con "git cherry-pick --skip".
+ayuda: Para abortar y regresar al estado anterior a "git cherry-pick",
+ayuda: ejecute "git cherry-pick --abort
+Explicación:
+Esto es útil porque permite aplicar solo un cambio importante (como un hotfix) sin tener que traer todos los cambios de otra rama. Así podemos arreglar errores en producción sin añadir cosas que aún no están listas

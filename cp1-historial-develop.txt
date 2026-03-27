@@ -1,0 +1,9 @@
+  mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-matchias$ git log --oneline --all
+8c8a632 (HEAD -> develop) HOTFIX: corrige error crítico en login
+6f109e5 Añade funcionalidad B en develop
+d7fbc16 Añade funcionalidad A en develop
+a4aadc5 (main) Crea versión 1.0 de la app
+79edeaf (origin/main, origin/HEAD) add deadline
+8c0fb31 Initial commit  
+El commit del HOTFIX es el que tiene el mensaje "HOTFIX: corrige error crítico en login".
+Ese es el que voy a usar para hacer cherry-pick en la rama main.
