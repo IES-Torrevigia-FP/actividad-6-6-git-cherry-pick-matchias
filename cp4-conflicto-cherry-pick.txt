@@ -1,0 +1,19 @@
+git log --oneline
+En la rama main
+Tu rama está adelantada a 'origin/main' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        cp3-multiples-commits.txt
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes uso "git add" para hacerles seguimiento
+Al hacer cherry-pick hubo un conflicto porque se modificó la misma parte del archivo en ambas ramas.
+
+Para solucionarlo, abrí el archivo app.txt y edité el contenido manualmente, dejando una versión coherente. Luego eliminé los marcadores de conflicto (<<<<<<, ======, >>>>>>).
+
+Después ejecuté:
+git add app.txt
+git cherry-pick --continue
+
+Así se completó el cherry-pick correctamente.

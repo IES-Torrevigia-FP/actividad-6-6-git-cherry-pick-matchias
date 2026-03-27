@@ -1,0 +1,11 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-matchias$ git log --oneline
+df86cf7 (HEAD -> test) HOTFIX: corrige error crítico en login
+7ff3aa9 Añade funcionalidad B en develop
+a4aadc5 (main) Crea versión 1.0 de la app
+79edeaf (origin/main, origin/HEAD) add deadline
+8c0fb31 Initial commit
+Versión 1.0 de la aplicación.Funcionalidad A: en desarrollo
+Funcionalidad B: en desarrollo.
+La diferencia es que con merge traes todos los commits de una rama completa, mientras que con cherry-pick puedes elegir solo los commits que te interesan.
+
+Cherry-pick es más específico, porque puedes traer solo una funcionalidad o un arreglo sin mezclar todo lo demás.
