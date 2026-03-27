@@ -1,0 +1,21 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-matchias$ git log --oneline develop
+8c8a632 (develop) HOTFIX: corrige error crítico en login
+6f109e5 Añade funcionalidad B en develop
+d7fbc16 Añade funcionalidad A en develop
+a4aadc5 (HEAD -> main) Crea versión 1.0 de la app
+79edeaf (origin/main, origin/HEAD) add deadline
+8c0fb31 Initial commit
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-6-git-cherry-pick-matchias$ git log --oneline
+cat app.txt
+a4aadc5 (HEAD -> main) Crea versión 1.0 de la app
+79edeaf (origin/main, origin/HEAD) add deadline
+8c0fb31 Initial commit
+
+Versión 1.0 de la aplicación.
+Funcionalidad A: en desarrollo
+Funcionalidad B: en desarrollo
+HOTFIX: corrige error crítico en login
+
+
+Explicación:
+Esto es útil porque permite aplicar solo un cambio importante como un hotfix sin tener que traer todos los cambios de otra rama. Así podemos arreglar errores en producción sin añadir cosas que aún no están listas.
